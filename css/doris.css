@@ -1,0 +1,191 @@
+
+
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow-y: visible;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Pompiere', cursive;
+  color: #1f8ec9;
+}
+
+.box {
+  text-align: center;
+  padding: 5rem 0 3rem;
+}
+
+@media (min-width: 750px) {
+  .box {
+    padding: 8rem 0 7rem;
+  }
+}
+
+.box-heading, .box-description {
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  margin-bottom: 1.2rem;
+}
+
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  background-color: #c72510;
+  border-color: #c72510;
+  font-family: 'Pompiere', cursive;
+  font-size: 1.8rem;
+}
+
+/* Cover
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.cover {
+  background: #1f8ec9;
+}
+
+.cover-text {
+  text-align: center;;
+}
+
+.cover-heading {
+  font-size: 4.8rem;
+  color: #fff;
+}
+
+.cover-subheading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Pompiere', cursive;
+}
+
+.comic-wrap {
+  position: relative;
+}
+
+.cover-comic {
+  position: relative;
+  margin-bottom: -9rem;
+}
+
+@media (min-width: 550px) {
+  .cover-text, .cover-heading {
+    text-align: left;
+  }
+  .cover-comic {
+    position: absolute;
+    max-height: 190px;
+    top: 3rem;
+    left: 1rem;
+  }
+}
+
+@media (min-width: 750px) {
+
+  .cover-heading {
+    font-size: 6rem;
+  }
+
+  .cover-subheading {
+    font-size: 2.7rem;
+  }
+
+  .cover-comic {
+    top: 1.5rem;
+    max-height: 280px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .cover-heading {
+    font-size: 7rem;
+  }
+
+  .cover-subheading {
+    font-size: 3.3rem;
+  }
+  .cover-comic {
+    top: 0;
+    max-height: 300px;
+  }
+}
+
+/* Description
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.description-heading {
+  margin-bottom: 1.6rem;
+}
+
+.description-text {
+  text-align: left;
+}
+.description .button {
+  margin-bottom: 5rem;
+}
+
+/* Product
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.product-photo {
+  margin-bottom: 4rem;
+}
+
+.product-info{
+  font-size: 85%;
+}
+
+@media (min-width: 750px) {
+  .product-info{
+    font-size: 100%;
+  }
+}
+
+/* Call to action
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.calltoaction {
+  background: #1f8ec9;
+}
+
+.calltoaction-heading {
+  color: #fff;
+}
+
+.calltoaction .button {
+  margin-bottom: 2.4rem;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/*
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
