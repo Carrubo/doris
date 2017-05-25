@@ -1,0 +1,75 @@
+* {
+    line-height: 1.2;
+    margin: 0;
+}
+
+html {
+    color: #222;
+    display: table;
+    font-family: "Alegreya Sans", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 2em auto;
+    font-size: 2rem;
+    background-color: #1f8ec9;
+}
+
+.ooops {
+  font-size: 5rem;
+  font-family: 'Pompiere', "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .ooops  { font-size: 7rem; }
+}
+
+svg.alert {
+  vertical-align: bottom;
+  height: 5rem;
+}
+
+@media screen and (min-width: 750px) {
+  svg.alert  { height: 7rem; }
+}
+
+svg.alert path, svg.alert circle {
+  fill: #fff;
+}
+
+h1 {
+    color: #1f8ec9;
+    color: #fff;
+    font-family: 'Pompiere', "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 750px) {
+  h1  { font-size: 5rem; }
+}
+
+
+p {
+    margin: 0 auto;
+    width: 95%;
+    color: #fff;
+}
+@media screen and (min-width: 750px) {
+  p {    width: 60%; }
+}
+
+.message {
+  font-size: 2rem;
+  font-family: 'Pompiere', "Trebuchet MS", Helvetica, sans-serif;
+  text-transform: uppercase;
+}

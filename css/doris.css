@@ -27,6 +27,15 @@ a:hover, a:focus {
   color: #c72510;
 }
 
+.horizontal-list {
+    list-style: none;
+}
+
+.horizontal-list > li {
+  display: inline-block;
+  margin: 1.5em 2em 1.5em 0;
+}
+
 .box {
   text-align: center;
   padding: 5rem 0 3rem;
@@ -105,7 +114,11 @@ input[type="button"].button-primary {
 }
 
 @media (min-width: 750px) {
-  .cover { min-height: 281px; }
+  .cover {
+    height: 400px;
+    padding-top: 10rem;
+    padding-bottom: 9rem;
+  }
 }
 
 .cover-text { text-align: center; }
@@ -167,9 +180,9 @@ input[type="button"].button-primary {
 @media (min-width: 750px) {
   .phone-img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 380px;
     position: absolute;
-    top: 6rem;
+    top: 12rem;
     right: 0;
   }
 }
@@ -177,8 +190,13 @@ input[type="button"].button-primary {
 @media (min-width: 1000px) {
   .phone-img {
     max-height: 480px;
-    top: -1rem;
+    top: 2rem;
   }
+}
+
+.cover-os-links-icon {
+  font-size: 3rem;
+  color: #fff;
 }
 
 /* Description
@@ -242,10 +260,10 @@ input[type="button"].button-primary {
 
 .calltoaction-heading {
   color: #fff;
+  margin-bottom: 4.5rem;
 }
 
 .calltoaction .button {
-  margin-bottom: 2.4rem;
 }
 
 
@@ -260,15 +278,6 @@ input[type="button"].button-primary {
    .footer-text {
      text-align: left;
    }
-}
-
-.footer-social-links {
-  list-style: none;
-}
-
-.footer-social-links > li {
-  display: inline-block;
-  margin: 1.5rem 2rem;
 }
 
 .footer-social-links-icon {
