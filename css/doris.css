@@ -123,7 +123,7 @@ input[type="button"].button-primary {
 
 .cover-text { text-align: center; }
 
-@media (min-width: 550px) {
+@media (min-width: 750px) {
   .cover-text {
     text-align: left;
   }
@@ -131,26 +131,28 @@ input[type="button"].button-primary {
 
 .cover-heading {
   font-size: 5.0rem;
+  line-height: 1.4;
   color: #fff;
-  line-height: 7rem;
-}
-
-@media (min-width: 550px) {
-  .cover-heading { text-align: left; }
 }
 
 @media (min-width: 750px) {
-  .cover-heading { font-size: 6rem; }
+  .cover-heading {
+    font-size: 6rem;
+    /*text-align: left;*/
+  }
 }
 
 @media (min-width: 1000px) {
-  .cover-heading { font-size: 7rem; }
+  .cover-heading {
+    font-size: 7rem;
+  }
 }
 
 .cover-subheading {
   color: #fff;
   font-size: 2.5rem;
   font-family: 'Pompiere', "Trebuchet MS", Helvetica, sans-serif;
+  line-height: 1.4;
 }
 
 @media (min-width: 750px) {
@@ -158,7 +160,9 @@ input[type="button"].button-primary {
 }
 
 @media (min-width: 1000px) {
-  .cover-subheading { font-size: 3.3rem; }
+  .cover-subheading {
+    font-size: 3.0rem;
+  }
 }
 
 .cover-button {
